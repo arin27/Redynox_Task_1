@@ -1,0 +1,30 @@
+# Serial No. 2 – Implementing Basic Security Measures
+
+## Objective
+Set up basic security measures on a network to prevent unauthorized access and secure data.
+
+## Security Measures Implemented
+
+### 1. Windows Defender Firewall
+- **What was done:** Enabled the firewall for both Public and Private networks.
+- **Test:** Blocked access for a specific application (Microsoft Edge) to simulate unauthorized access.
+- **Why:** Prevents unknown apps or devices from accessing the network, reducing the risk of malware or hacking.
+
+### 2. Secure Hotspot / Passwords
+- **What was done:** Enabled a secure password on the mobile hotspot.
+- **Why:** Default passwords are predictable; setting a strong password prevents unauthorized devices from connecting.
+
+### 3. Network Encryption
+- **What was done:** Enabled WPA2/WPA3 (if available) on the hotspot.
+- **Why:** Encrypts all traffic to prevent eavesdropping and protect sensitive information.
+
+## Notes
+- No physical router was used; the mobile hotspot acted as the network environment.
+- Testing of firewall rules was done by blocking Microsoft Edge to simulate unauthorized access.
+- Even with a simple network, these measures provide a foundational layer of security.
+
+## Reflection
+Implementing these basic measures helped me understand:
+- How firewalls act as gatekeepers for network traffic.
+- The importance of changing default credentials and securing the network.
+- Why encryption is critical to prevent data interception.
