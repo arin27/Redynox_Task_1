@@ -1,0 +1,51 @@
+# Serial No. 1 – Learning Network Security Basics
+
+## a) Network Threats
+
+### Viruses
+- **What they are:** Malicious programs that attach themselves to files or applications; they execute and cause damage when the infected file is opened.  
+- **How they spread:** Downloads, email attachments, USB drives, or infected software.  
+- **Impact:** Slow down system, delete files, or corrupt the operating system.  
+- **Example:** The ILOVEYOU virus (May 2000) spread through email attachments and caused billions in damage worldwide.
+
+### Worms
+- **What they are:** Self-replicating programs that spread across networks without user action.  
+- **Impact:** Overload networks, steal data, or create backdoors for other attacks.  
+- **Example:** WannaCry ransomware worm (2017) encrypted files on vulnerable Windows systems and demanded ransom.
+
+### Trojans
+- **What they are:** Malicious programs disguised as legitimate software.  
+- **Impact:** Steal sensitive data, create backdoors, or allow hackers remote access.  
+- **Example:** Fake software installer claiming to speed up a computer while secretly installing malware.
+
+### Phishing Attacks
+- **What they are:** Attacks that trick users into giving sensitive info (passwords, bank details).  
+- **How they work:** Fake emails, messages, or websites that appear legitimate.  
+- **Impact:** Identity theft, stolen money, or hacked accounts.  
+- **Example:** A fake “bank alert” email asking to log in via a malicious link.
+
+---
+
+## b) Basic Security Concepts
+
+### Firewalls
+- **What it is:** Acts as a gatekeeper between your internal network and the internet.  
+- **Purpose:** Blocks unauthorized access and allows safe traffic.  
+- **Example:** Windows Defender Firewall blocking an unknown app trying to access the internet.
+
+### Encryption
+- **What it is:** Converts data into a coded format readable only by authorized users.  
+- **Purpose:** Protects sensitive information during transmission.  
+- **Example:** HTTPS on websites encrypts data like passwords so hackers cannot intercept it.
+
+### Secure Network Configurations
+- **What it means:** Basic settings to make your network safer.  
+- **Examples:** Changing default router passwords, enabling Wi-Fi encryption (WPA2/WPA3), closing unused ports.  
+- **Why it matters:** Prevents attackers from exploiting common vulnerabilities even with simple changes.
+
+---
+
+## c) Personal Takeaways / Reflection
+- Understanding threats highlights why even simple security practices are crucial.  
+- Small steps, like changing passwords or checking links before clicking, significantly improve network security.  
+- Threats evolve quickly; learning to identify them early is key to staying protected.
