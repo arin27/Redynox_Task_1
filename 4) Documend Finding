@@ -1,0 +1,36 @@
+# Serial No. 4 – Document Findings
+
+## Objective
+Summarize network threats researched, security measures implemented, and findings from traffic monitoring.
+
+## Network Threats Recap
+- **Viruses:** Malicious programs that attach to files and cause damage. Example: ILOVEYOU virus.  
+- **Worms:** Self-replicating malware spreading without user action. Example: WannaCry ransomware.  
+- **Trojans:** Malicious programs disguised as legitimate software. Example: Fake software installer.  
+- **Phishing Attacks:** Tricking users to reveal sensitive information via fake emails or websites.  
+
+---
+
+## Security Measures Implemented
+1. **Windows Defender Firewall**
+   - Enabled for both Public and Private networks.  
+   - Blocked Microsoft Edge as a test for unauthorized access.  
+2. **Mobile Hotspot Security**
+   - Set a strong password.  
+   - Enabled WPA2/WPA3 encryption for data protection.  
+
+**Why:** These measures provide a basic but solid defense against unauthorized access and data interception.
+
+---
+
+## Traffic Captured with Wireshark
+- Captured TCP, TLS, UDP, DNS, MDNS, ARP, QUIC, and ICMP protocols.  
+- Observed normal traffic for browsing, apps, and local device discovery.  
+- No suspicious or unusual IP addresses were detected.  
+
+### Example Screenshots
+```markdown
+![Firewall Settings](images/firewall_enabled.png)
+![Blocked App Test](images/blocked_app.png)
+![Protocol List in Wireshark](images/protocol_list.png)
+![Highlighted MDNS Packet](images/mdns_packet.png)
