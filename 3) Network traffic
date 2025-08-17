@@ -1,0 +1,30 @@
+# Serial No. 3 – Monitor Network Traffic
+
+## Objective
+Capture and analyze network traffic to understand common protocols and identify unusual or suspicious activity.
+
+## Tool Used
+- **Wireshark** – a network protocol analyzer for capturing and inspecting packets.
+
+## Protocols Observed
+
+| Protocol | Description | Observations |
+|----------|-------------|-------------|
+| TCP      | Reliable communication used in web browsing and apps | Normal traffic |
+| TLS      | Encrypted web traffic (HTTPS) | Normal, secure |
+| UDP      | Lightweight communication, often for streaming or gaming | Normal |
+| MDNS     | Local device discovery on the network | Normal, expected from connected devices |
+| ARP      | Address Resolution Protocol, maps IP to MAC addresses | Normal LAN activity |
+| QUIC     | Google’s fast web protocol for web traffic | Normal |
+| DNS      | Domain Name System lookups | Normal |
+| ICMP     | Pings and network testing | Minimal, normal |
+
+---
+
+## Analysis
+- No unusual IP addresses or suspicious protocols detected.  
+- MDNS shows local devices connected to the network.  
+- ICMP and ARP packets indicate normal connectivity checks and LAN mapping.  
+- TCP, TLS, UDP, and QUIC traffic corresponds to expected usage of web browsing and apps.
+
+---
